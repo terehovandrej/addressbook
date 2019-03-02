@@ -1,16 +1,15 @@
 package Test1;
 
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
+import static org.testng.Assert.fail;
 
-import static org.testng.Assert.*;
-
-import org.openqa.selenium.*;
-
-public class Test1 {
-
+public class TestBase {
     private WebDriver driver;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
@@ -32,26 +31,15 @@ public class Test1 {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[2]")).click();
     }
 
-
-    @Test
-    public void testGroupCreation() {
-
-        goToGroupPage();
-        initGroupCreation();
-        fillGroupCreation(new GroupData("test1", "test2", "test3"));
-        submitGroupCreation();
-        returnToGroupPage();
-    }
-
-    private void returnToGroupPage() {
+    protected void returnToGroupPage() {
         driver.findElement(By.linkText("group page")).click();
     }
 
-    private void submitGroupCreation() {
+    protected void submitGroupCreation() {
         driver.findElement(By.name("submit")).click();
     }
 
-    private void fillGroupCreation(GroupData groupData) {
+    protected void fillGroupCreation(GroupData groupData) {
         driver.findElement(By.name("group_name")).click();
         driver.findElement(By.name("group_name")).clear();
         driver.findElement(By.name("group_name")).sendKeys(groupData.getName());
@@ -63,11 +51,11 @@ public class Test1 {
         driver.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
     }
 
-    private void initGroupCreation() {
+    protected void initGroupCreation() {
         driver.findElement(By.name("new")).click();
     }
 
-    private void goToGroupPage() {
+    protected void goToGroupPage() {
         driver.findElement(By.linkText("groups")).click();
     }
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c196502-d82b-469b-873c-a8fb0220e07c" name="Default" comment="" />
+    <list default="true" id="4c196502-d82b-469b-873c-a8fb0220e07c" name="Default" comment="push">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test1/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test1/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+      <file leaf-file-name="GroupCreationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="187">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Test1/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -64,6 +76,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$USER_HOME$/Documents/UntitledTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test1/Test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test1/TestBase.java" />
       </list>
     </option>
   </component>
@@ -112,6 +126,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="addressbook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Test1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Test1">
+  <component name="RunManager" selected="TestNG.GroupCreationTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -154,7 +176,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test1 (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <extension name="coverage">
         <pattern>
@@ -166,7 +188,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Test1" />
-      <option name="MAIN_CLASS_NAME" value="Test1.Test1" />
+      <option name="MAIN_CLASS_NAME" value="Test1.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -183,7 +205,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Test1 (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <extension name="coverage">
         <pattern>
@@ -195,7 +217,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Test1" />
-      <option name="MAIN_CLASS_NAME" value="Test1.Test1" />
+      <option name="MAIN_CLASS_NAME" value="Test1.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -212,7 +234,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Test1 (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <extension name="coverage">
         <pattern>
@@ -224,7 +246,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Test1" />
-      <option name="MAIN_CLASS_NAME" value="Test1.Test1" />
+      <option name="MAIN_CLASS_NAME" value="Test1.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -241,7 +263,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Test1 (4)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <extension name="coverage">
         <pattern>
@@ -253,7 +275,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Test1" />
-      <option name="MAIN_CLASS_NAME" value="Test1.Test1" />
+      <option name="MAIN_CLASS_NAME" value="Test1.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -270,7 +292,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook" />
       <extension name="coverage">
         <pattern>
@@ -282,7 +304,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="Test1" />
-      <option name="MAIN_CLASS_NAME" value="Test1.Test1" />
+      <option name="MAIN_CLASS_NAME" value="Test1.GroupCreationTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -322,19 +344,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Test1" />
-      <item itemvalue="TestNG.Test1 (1)" />
-      <item itemvalue="TestNG.Test1 (2)" />
-      <item itemvalue="TestNG.Test1 (3)" />
-      <item itemvalue="TestNG.Test1 (4)" />
+      <item itemvalue="TestNG.GroupCreationTest" />
+      <item itemvalue="TestNG.GroupCreationTest" />
+      <item itemvalue="TestNG.GroupCreationTest" />
+      <item itemvalue="TestNG.GroupCreationTest" />
+      <item itemvalue="TestNG.GroupCreationTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test1" />
-        <item itemvalue="TestNG.Test1 (4)" />
-        <item itemvalue="TestNG.Test1 (3)" />
-        <item itemvalue="TestNG.Test1 (2)" />
-        <item itemvalue="TestNG.Test1 (1)" />
+        <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupCreationTest" />
+        <item itemvalue="TestNG.GroupCreationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -349,6 +371,14 @@
       <option name="presentableId" value="Default" />
       <updated>1551116713734</updated>
     </task>
+    <task id="LOCAL-00001" summary="push">
+      <created>1551554924200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551554924200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -394,6 +424,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
@@ -403,12 +434,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3294893" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3294893" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294893" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.30642503" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.26523888" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.2677761" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.2677761" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -425,6 +456,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="45" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="45" />
@@ -463,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
@@ -480,7 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
@@ -497,7 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
@@ -517,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/addressbook.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="20" />
@@ -547,13 +582,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="187">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test1/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
