@@ -1,4 +1,4 @@
-package Test1;
+package Test1.tests;
 
 public class GroupData {
     private final String name;
