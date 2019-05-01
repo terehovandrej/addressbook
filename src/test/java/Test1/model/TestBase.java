@@ -15,7 +15,7 @@ public class TestBase {
 
     @AfterClass(alwaysRun = true)
     public void tearDown() {
-        app.stop(); //fdfd
+        app.stop();
     }
 }
 
