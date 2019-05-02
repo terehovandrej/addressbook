@@ -1,6 +1,6 @@
-package Test1.model;
+package test1.model;
 
-import Test1.appmanager.ApplicationManager;
+import test1.appmanager.ApplicationManager;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 

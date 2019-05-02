@@ -1,4 +1,4 @@
-package Test1.tests;
+package test1.tests;
 
 public class ContactData {
     private final String name;

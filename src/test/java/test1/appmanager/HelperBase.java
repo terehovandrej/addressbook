@@ -1,4 +1,4 @@
-package Test1.appmanager;
+package test1.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,5 +1,5 @@
-package Test1.tests;
-import Test1.model.TestBase;
+package test1.tests;
+import test1.model.TestBase;
         import org.testng.annotations.*;
 public class GroupCreationTest extends TestBase {
 
