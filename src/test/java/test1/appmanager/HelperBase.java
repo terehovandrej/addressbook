@@ -20,11 +20,10 @@ public class HelperBase {
         if (text != null) {
             String existingText = driver.findElement(locator).getAttribute("value");
             //если поля уже заполнены переданными значениями, то повторно не заполняются
-            if (! text.equals(existingText)) {
+            if (!text.equals(existingText)) {
                 driver.findElement(locator).clear();
                 driver.findElement(locator).sendKeys(text);
             }
         }
     }
 }
-//проверочка
