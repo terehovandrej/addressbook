@@ -31,10 +31,11 @@ public class HelperBase {
         try {
             driver.switchTo().alert();
             return true;
-        }   
+        }
         catch (NoAlertPresentException e) {
             return false;
         }
     }
 }
 
+//fdfddfdfdfdfdf

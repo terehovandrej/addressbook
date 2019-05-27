@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/test1/appmanager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#232#233#0" expanded="true" />
@@ -1141,7 +1141,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test1/appmanager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#232#233#0" expanded="true" />
