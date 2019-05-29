@@ -1,6 +1,6 @@
 package test1.tests;
 
-import test1.model.TestBase;
+import test1.model.GroupData;
 import org.testng.annotations.Test;
 
 public class GroupModificationTest extends TestBase {

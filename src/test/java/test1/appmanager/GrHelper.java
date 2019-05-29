@@ -1,6 +1,6 @@
 package test1.appmanager;
 
-import test1.tests.GroupData;
+import test1.model.GroupData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
