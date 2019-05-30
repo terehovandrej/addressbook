@@ -34,7 +34,7 @@ public class ApplicationManager {
             driver = new ChromeDriver();
         }
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         grHelper = new GrHelper(driver);
         contactHelper = new ContactHelper(driver);
