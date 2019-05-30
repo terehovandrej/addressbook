@@ -1,4 +1,4 @@
-package test1.model;
+package test1.tests;
 
 import org.openqa.selenium.remote.BrowserType;
 import test1.appmanager.ApplicationManager;
