@@ -49,7 +49,7 @@ public class GrHelper extends HelperBase {
 
     public void createGroup(GroupData group) {
         initGroupCreation();
-        fillGroupCreation(new GroupData("test1", null, null));
+        fillGroupCreation(group);
         submitGroupCreation();
         returnToGroupPage();
     }
@@ -57,4 +57,5 @@ public class GrHelper extends HelperBase {
     public boolean isThereAGroup() {
         return isElementPresent(By.name("selected[]"));
     }
+
 }

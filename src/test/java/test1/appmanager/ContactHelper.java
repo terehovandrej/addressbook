@@ -39,12 +39,21 @@ public class ContactHelper extends HelperBase {
 
     }
 
-    public void deleteSelectedGroup() {
+    public void deleteSelectedContact() {
         click(By.xpath("//input[@value=\"Delete\"]"));
         driver.switchTo().alert().accept();
     }
 
     public void initContactModification() {
         click(By.xpath("//*[@id=\"maintable\"]/tbody/tr[2]/td[8]/a/img"));
+    }
+    public boolean isThereAContact() {
+        return isElementPresent(By.name("selected[]"));
+    }
+
+    public void createContact(ContactData contactData, boolean creation) {
+        fillContactCreation(contactData, creation);
+        submitContactCreation();
+        returnToHomePage();
     }
 }
